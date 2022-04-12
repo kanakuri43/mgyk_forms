@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="mgyk_forms.Views.AutoGenerateOrder"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1"
+                    Orientation="Horizontal">
+            <ComboBox>
+                <ComboBoxItem Content="2022"/>
+            </ComboBox>
+            <TextBlock Text="年分"/>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

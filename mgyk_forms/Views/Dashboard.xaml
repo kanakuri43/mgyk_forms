@@ -4,7 +4,31 @@
              xmlns:prism="http://prismlibrary.com/"             
              prism:ViewModelLocator.AutoWireViewModel="True">
     <Grid Background="White">
-        <TextBlock Text="abcdefg" />
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" 
+                   Text="Dashboard" />
+
+        <Button Grid.Row="1" 
+                Content="自動生成"/>
+        <Button Grid.Row="2" 
+                Content="事前発注データ調整"/>
+        <Button Grid.Row="3" 
+                Content="事前発注データ確定"/>
+        <Button Grid.Row="4" 
+                Content="注文用紙作成"/>
+        <Button Grid.Row="5" 
+                Content="注文数入力"/>
 
     </Grid>
 </UserControl>
