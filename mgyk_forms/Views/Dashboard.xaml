@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="mgyk_forms.Views.Dashboard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid Background="White">
+        <TextBlock Text="abcdefg" />
+
+    </Grid>
+</UserControl>
